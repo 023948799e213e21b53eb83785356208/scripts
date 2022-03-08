@@ -1,6 +1,6 @@
 function cq()
 local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/discord%20lib.txt")()
-local win = DiscordLib:Window("Grant Hub-Premium Edition")
+local win = DiscordLib:Window("random's Natural Natural disaster hub")
 local serv = win:Server("Natural Disaster Survival", "")
 local btns = serv:Channel("Auto Farm")
 local TP = serv:Channel("Teleport")
