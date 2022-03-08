@@ -1,6 +1,6 @@
 function cq()
 local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/discord%20lib.txt")()
-local win = DiscordLib:Window("random's Natural Natural disaster hub")
+local win = DiscordLib:Window("random's Natural disaster gui")
 local serv = win:Server("Natural Disaster Survival", "")
 local btns = serv:Channel("Auto Farm")
 local TP = serv:Channel("Teleport")
@@ -147,4 +147,17 @@ while wait() do
        end
 DiscordLib:Notification("Notification", "sucess", "Ok")
 end)
+end
+if crack == true then
+if _G.Key == _G.Key then
+cq()
+end
+else
+if _G.Key == "subplz" then
+cq()
+else
+game.StarterGui:SetCore("SendNotification", {
+    Title = "Error!";
+    Text = "Invalid Key Please try again!";
+end
 end
