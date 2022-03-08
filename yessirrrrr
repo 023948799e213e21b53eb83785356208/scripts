@@ -1,8 +1,9 @@
+_G.Key = 'eggnut69'
 function cq()
 local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/discord%20lib.txt")()
 local win = DiscordLib:Window("random's Natural disaster gui")
 local serv = win:Server("Natural Disaster Survival", "")
-local btns = serv:Channel("Auto Farm")
+local btns = serv:Channel("Auto Farm (Broken and will not be fixed)")
 local TP = serv:Channel("Teleport")
 local sldrs = serv:Channel("Player")
 local sp = serv:Channel("Death Note")
@@ -153,11 +154,9 @@ if _G.Key == _G.Key then
 cq()
 end
 else
-if _G.Key == "subplz" then
+if _G.Key == "eggnut69" then
 cq()
 else
-game.StarterGui:SetCore("SendNotification", {
-    Title = "Error!";
-    Text = "Invalid Key Please try again!";
+game:GetService('Players').LocalPlayer:Kick("Invaid Key")
 end
 end
