@@ -1,7 +1,7 @@
 _G.Key = 'eggnut69'
 function cq()
 local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/discord%20lib.txt")()
-local win = DiscordLib:Window("Raxt's Natural disaster gui")
+local win = DiscordLib:Window("Random's Natural disaster gui")
 local serv = win:Server("Natural Disaster Survival", "")
 local btns = serv:Channel("Auto Farm (Broken and will not be fixed)")
 local TP = serv:Channel("Teleport")
