@@ -1,4 +1,4 @@
-_G.Key = 'eggnut69'
+_G.Key = 'eg'
 function cq()
 local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/discord%20lib.txt")()
 local win = DiscordLib:Window("Random's Natural disaster gui")
@@ -157,6 +157,6 @@ else
 if _G.Key == "eggnut69" then
 cq()
 else
-game:GetService('Players').LocalPlayer:Kick("Invaid Key")
+game:GetService('Players').LocalPlayer:Kick("cannot reach Site Or site is Under maintenance.")
 end
 end
